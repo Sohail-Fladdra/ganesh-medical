@@ -37,7 +37,7 @@ footer .information .info-desc tr td{
 footer .information .info-desc tr th,
 footer .information .info-desc tr td{
     text-align: left;
-    padding-left: 1.2em;
+    padding-left: 0em;
     padding-top: 0.4em;
     padding-bottom: 0.5em;
 }
