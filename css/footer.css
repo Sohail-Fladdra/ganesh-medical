@@ -1,0 +1,80 @@
+footer{
+    padding-bottom: 2em;
+    background-color: inherit;
+    color: inherit;
+    /* width: 100%; */
+}
+footer .information .info-title{
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 0.4em;
+}
+
+
+footer .information .info-desc table,
+footer .information .info-desc tbody,
+footer .information .info-desc tr
+{
+    width: 100%;
+}
+
+footer .information .info-desc tr th span{
+    width: inherit;
+    font-size: 2em;
+    vertical-align: top;
+}
+footer .information .info-desc tr th{
+    width: 3rem;
+    vertical-align: top;
+    /* border: 1px solid red; */
+}
+footer .information .info-desc tr td{
+    /* border: 1px solid green; */
+    line-height: 1.2em;
+    font-size: 1.15em;
+}
+
+footer .information .info-desc tr th,
+footer .information .info-desc tr td{
+    text-align: left;
+    padding-left: 1.2em;
+    padding-top: 0.4em;
+    padding-bottom: 0.5em;
+}
+
+/* buttons */
+footer .info{
+    margin: auto;
+    width: max-content;
+    padding-top: .6em;
+    padding-bottom: .8em;
+}
+footer .info .info-list{
+    list-style: none;
+}
+footer .info .info-list .info-btn{
+    display: inline-block;
+    margin-left: 0.3em;
+    margin-left: 0.3em;
+    width: 5em;
+    cursor: pointer;
+}
+footer .info .info-list .info-btn .info-icon{
+    font-size: 3em;
+    text-align: center;
+    color: inherit;
+
+}
+footer .info .info-list .info-btn .info-name{
+    text-align: center;
+}
+footer .info .info-list .info-btn .info-name,
+footer .info .info-list .info-btn .info-icon
+{
+    width: inherit;
+    display: inline-block;
+}
+footer .info .info-list .info-btn a{
+
+    all: inherit;
+}

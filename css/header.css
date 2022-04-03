@@ -1,0 +1,54 @@
+header{
+    padding: 0.4em;
+    text-align: center;
+    margin-top: 1.3em;
+    margin-bottom: 0em;
+    background-color: none;
+    font-family: inherit;
+    padding-bottom: 0;
+}
+header h1
+{
+    color: #fff;
+    font-size: 2.67em;
+    font-weight: 500;
+    /* font-family: CaslonBold, sans-serif ; */
+    margin-bottom: 0.4em;
+}
+header .small-info{
+    width: 100%;
+    padding-right: 0.3em;
+    font-size: 0.94em;
+    text-align: left;
+    margin-top: 0.8em;
+    padding-bottom: 0em;
+
+}
+header .small-info .starts{
+    width: 100%;
+}
+header .rating .stars svg{
+    width: 7em ;
+}
+
+header .small-info .rating strong,
+header .small-info .rating .no-of-ratings{
+    display: inline-block;
+    position: relative;
+    top: -0.2em;
+}
+/* contact-info */
+header .small-info .contact{
+    margin-bottom: 0.1em;
+}
+header .small-info .contact .contact-title{
+    font-weight: 500;
+}
+header .small-info .contact .contact-info{
+    text-decoration: underline;
+}
+header .small-info .contact .contact-info a{
+    color: inherit;
+}
+
+/* buttons */

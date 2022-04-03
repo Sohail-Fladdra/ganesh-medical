@@ -1,0 +1,34 @@
+.whatsapp-icon
+{
+    width: 3.7em;
+    position: fixed;
+    bottom: 1.9em;
+    right: .8em;
+    z-index: 1;
+    cursor: pointer;
+}
+.whatsapp-icon img{
+    width: inherit;
+}
+
+.glow-shadow {
+    border-radius:50%;
+    -webkit-animation: throb 1.5s infinite ease-in-out;
+    animation: glow 1.5s infinite ease-in-out;
+}
+
+@keyframes glow {
+    0% {
+        filter: drop-shadow(0 0 1em rgba(50, 160, 50, 0.9));
+        box-shadow: 0 0 1em rgba(50, 160, 50, 0.9);
+    }
+    50% {
+        filter: drop-shadow(0 0 1em rgba(50, 160, 50, .2));
+        box-shadow: 0 0 1em rgba(50, 160, 50, .2);
+
+    }
+    100% {
+        filter: drop-shadow(0 0 1em rgba(50, 160, 50, 0.9));
+        box-shadow: 0 0 1em rgba(50, 160, 50, 0.9);
+    }
+}

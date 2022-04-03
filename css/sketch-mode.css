@@ -1,0 +1,22 @@
+/* for use, include this file to index.html */
+body{
+    background-color: white;
+    color: black;
+}
+.gold{
+
+    color: #3d4beb;
+}
+
+h1, h2, h3, h4, h5, h6, .slogan, .material-icons{
+    color: rgb(255, 255, 255);
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+header h1{
+    color: black !important;
+    -webkit-text-fill-color: initial;
+    -webkit-text-stroke-width: initial;
+    -webkit-text-stroke-color: initial;
+}

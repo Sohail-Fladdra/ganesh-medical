@@ -1,0 +1,80 @@
+main .slogan{
+    /* font-family: Camilen, serif; */
+    font-size: 3.2em;
+    padding-bottom: 0.1em;
+    margin-top: 0.1em;
+    margin-bottom: 0.2em;
+    text-decoration: wavy;
+    font-family: "Wigrum", Inter;
+    text-shadow: 0 0 1px rgb(55, 67, 235); 
+    line-height: 0.9em;
+}
+main .slogan .underline{
+    text-decoration: underline;
+}
+main{
+    margin-bottom: 2em;
+    background-color: none;
+    color: inherit;
+}
+
+main .illustration-img{
+    /* z-index: -1;
+
+    position: relative;
+    top: 1em;
+    width: 40%; */
+
+    /* new */
+    z-index: -1;
+    position: absolute;
+    bottom: 15em;
+    left: 7vw;
+    width: 79%;
+
+}
+main .illustration-img img{
+    width: 100%;
+    opacity: 0.15
+}
+main .slogan .slogan-desc{
+    margin-top: 0.6em;
+    font-size: 0.34em;
+    text-align: left;
+    line-height: 1.3em;
+    /* line-height: initial; */
+}
+
+main .information
+{
+ padding-top: 1em;
+ background-color: #ffe77aff;
+ color: #005500;
+
+}
+main .information .info-title{
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 0.2em;
+}
+
+main .service-list  li{
+    font-size: 1.15em;
+
+}
+main .service-list{
+    padding-left: 1.2em;
+    list-style:disc;
+    padding-bottom: 2em;
+}
+main  #pSlider{
+    padding: 0;
+}
+main .map{
+    width: 100%;
+    height: 16rem;
+}
+main .map iframe{
+    width: inherit;
+    height: inherit;
+}

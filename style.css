@@ -1,0 +1,15 @@
+/* 
+color combination with black is  #f2aa4cff;
+
+ */
+@import url('./css/font.css');
+
+/* globle css */
+@import url('./css/globle.css');
+/* css componenets */
+@import url('./css/header.css');
+@import url('./css/main.css');
+@import url('./css/footer.css');
+
+@import url('./css/carousel.css');
+@import url('./css/whsatapp-icon.css');
